@@ -1,28 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { FoodData } from './Interface/FoodData';
-import { Card } from './components/cards/card';
 import { useFoodData } from './hooks/useFoodData';
+import { CreateModal } from './components/create-modal/create-modal';
+import { Card } from './components/cards/card';
 
 function App() {
   const { data } = useFoodData();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(prev => !prev)
+  }
 
   return (
     <div className="container">
-      <h1>Cardárpio</h1>
+      <h1>Cardápio</h1>
       <div className="card-grid">
         {data?.map(foodData => 
-        <Card 
-        key={foodData.id}
-        price={foodData.price} 
-        title={foodData.title} 
-        image={`http://localhost:8080/images/${foodData.image}`}
-        />
-      )}
+          <Card
+            price={foodData.price} 
+            title={foodData.title} 
+            image={foodData.image}
+          />
+        )}
+      </div>
+      {isModalOpen && <CreateModal closeModal={handleOpenModal}/>}
+      <button onClick={handleOpenModal}>novo</button>
     </div>
-  </div>
   )
 }
 
