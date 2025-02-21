@@ -2,10 +2,6 @@
 
 Este projeto é um protótipo de um Cardápio Digital. A aplicação foi criada utilizando React, TypeScript e React Query no frontend, e Java com Spring Boot no backend.
 
-![image](https://github.com/user-attachments/assets/9024fc95-c53c-41ad-b003-c17954af7c27) ![image](https://github.com/user-attachments/assets/6fa72636-9c8b-4a17-9be1-903a685f5f91)
-
-
-
 📌 Tecnologias Utilizadas
 
 Frontend:
