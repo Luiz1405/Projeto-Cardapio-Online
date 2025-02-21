@@ -1,87 +1,72 @@
 🍽️ Cardápio Digital - Aplicação FullStack
+Este projeto é um Cardápio Digital desenvolvido com React e Spring Boot.
+A aplicação permite visualizar e gerenciar pratos e menus de forma dinâmica.
 
-Este projeto é um protótipo de um Cardápio Digital. A aplicação foi criada utilizando React, TypeScript e React Query no frontend, e Java com Spring Boot no backend.
-
-📌 Tecnologias Utilizadas
-
-Frontend:
-
-React
-
-TypeScript
-
-React Query
-
-Vite
-
-Backend:
-
-Java
-
-Spring Boot
-
-PostgreSQL
-
-Docker
-
-Postman (Para testes de API)
-
+🛠️ Estrutura do Projeto
+🔹 Frontend
+React com TypeScript
+React Query para gerenciamento de estado
+Vite para um ambiente de desenvolvimento otimizado
+🔹 Backend
+Java 17+ com Spring Boot
+Spring Data JPA para acesso ao banco de dados
+PostgreSQL para armazenamento de dados
+Docker para ambiente de contêinerização
+Postman para testes de API
 ✅ Requisitos
+Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 
-Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-
-Node.js (versão recomendada: 16 ou superior)
-
+Node.js (16 ou superior)
 npm ou yarn
-
 Docker
-
 Java 17+
-
 PostgreSQL
+🚀 Instalação e Execução
+🔹 Clonando o repositório
+bash
+Copiar
+Editar
+git clone https://github.com/Luiz1405/Projeto-Cardapio-Online.git
+🔹 Executando o Frontend
+Acesse a pasta do frontend e instale as dependências:
 
-🚀 Instalação
-
-Clone o repositório na sua máquina local:
-
-git clone https://github.com/Fernanda-Kipper/frontend-cardapio.git
-
-Acesse a pasta do projeto:
-
+bash
+Copiar
+Editar
 cd frontend-cardapio
-
-Instale as dependências:
-
 npm install
 # ou
 yarn install
+Inicie o ambiente de desenvolvimento:
 
-Backend:
-
-Acesse a pasta do backend:
-
-cd backend-cardapio
-
-Execute o backend com:
-
-./mvnw spring-boot:run
-
-▶️ Executando a Aplicação
-
-Para iniciar o ambiente de desenvolvimento, execute o seguinte comando:
-
+bash
+Copiar
+Editar
 npm run dev
 # ou
 yarn dev
+A aplicação estará disponível em http://localhost:5173/ (caso esteja utilizando o Vite).
 
-Isso iniciará a aplicação localmente, geralmente acessível em http://localhost:5173/ (caso esteja utilizando o Vite).
+🔹 Executando o Backend
+Acesse a pasta do backend:
 
-Executando com Docker
+bash
+Copiar
+Editar
+cd backend-cardapio
+Execute o backend com:
 
-Caso prefira rodar toda a stack com Docker, execute:
+bash
+Copiar
+Editar
+./mvnw spring-boot:run
+🐳 Executando com Docker
+Caso prefira rodar toda a stack com Docker, basta executar:
 
+bash
+Copiar
+Editar
 docker-compose up -d
+Isso iniciará frontend, backend e banco de dados PostgreSQL automaticamente.
 
-Isso iniciará tanto o frontend quanto o backend junto ao banco de dados PostgreSQL.
-
-Desenvolvido por Luiz Augusto de Souza Kubaszewski.🚀
+🚀 Desenvolvido por Luiz Augusto de Souza Kubaszewski.
