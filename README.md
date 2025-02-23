@@ -30,6 +30,7 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 ## 🚀 Instalação e Execução
 🔹 Clonando o repositório
 - git clone https://github.com/Luiz1405/Projeto-Cardapio-Online.git
+  
 🔹 Instalando
 cd frontend-cardapio
 Para instalar as dependências, execute o seguinte comando:
