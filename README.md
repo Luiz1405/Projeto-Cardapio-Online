@@ -33,10 +33,15 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
   
 🔹 Instalando
 cd frontend-cardapio
+
 Para instalar as dependências, execute o seguinte comando:
+
 npm install
+
 Por fim, para executar o projeto basta rodar o seguinte:
+
 npm run dev
+
 A aplicação estará disponível em http://localhost:5173/
 
 🔹 Executando o Backend
