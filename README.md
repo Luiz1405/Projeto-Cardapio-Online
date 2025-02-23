@@ -10,6 +10,7 @@ A aplicação permite visualizar e gerenciar pratos e menus de forma dinâmica.
 - **React com TypeScript**
 - **React Query para gerenciamento de estado**
 - **Vite para um ambiente de desenvolvimento otimizado**
+  
 🔹 Backend
 - **Java 17+ com Spring Boot**
 - **Spring Data JPA para acesso ao banco de dados**
@@ -28,50 +29,19 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 - **PostgreSQL**
 ## 🚀 Instalação e Execução
 🔹 Clonando o repositório
-- bash
-- Copiar
-- Editar
 - git clone https://github.com/Luiz1405/Projeto-Cardapio-Online.git
-🔹 Executando o Frontend
-Acesse a pasta do frontend e instale as dependências:
-
-bash
-Copiar
-Editar
+🔹 Instalando
 cd frontend-cardapio
+Para instalar as dependências, execute o seguinte comando:
 npm install
-# ou
-yarn install
-Inicie o ambiente de desenvolvimento:
-
-bash
-Copiar
-Editar
+Por fim, para executar o projeto basta rodar o seguinte:
 npm run dev
-# ou
-yarn dev
-A aplicação estará disponível em http://localhost:5173/ (caso esteja utilizando o Vite).
+A aplicação estará disponível em http://localhost:5173/
 
 🔹 Executando o Backend
 Acesse a pasta do backend:
-
-bash
-Copiar
-Editar
 cd backend-cardapio
 Execute o backend com:
-
-bash
-Copiar
-Editar
 ./mvnw spring-boot:run
-🐳 Executando com Docker
-Caso prefira rodar toda a stack com Docker, basta executar:
-
-bash
-Copiar
-Editar
-docker-compose up -d
-Isso iniciará frontend, backend e banco de dados PostgreSQL automaticamente.
 
 🚀 Desenvolvido por Luiz Augusto de Souza Kubaszewski.
