@@ -45,9 +45,13 @@ npm run dev
 A aplicação estará disponível em http://localhost:5173/
 
 🔹 Executando o Backend
+
 Acesse a pasta do backend:
+
 cd backend-cardapio
+
 Execute o backend com:
+
 ./mvnw spring-boot:run
 
 🚀 Desenvolvido por Luiz Augusto de Souza Kubaszewski.
