@@ -45,13 +45,15 @@ export function CreateModal({ closeModal }: ModalProps){
     return(
         <div className="modal-overlay">
             <div className="modal-body">
+                <button className="closebutton" onClick={closeModal}>X</button>
                 <h2>Cadastre um novo item no cardápio</h2>
                 <form className="input-container">
-                    <Input label="title" value={title} updateValue={setTitle}/>
-                    <Input label="price" value={price} updateValue={setPrice}/>
-                    <Input label="image" value={image} updateValue={setImage}/>
+                    <Input label="Titulo" value={title} updateValue={setTitle}/>
+                    <Input label="Preco" value={price} updateValue={setPrice}/>
+                    <Input label="Imagem" value={image} updateValue={setImage}/>
                 </form>
                 <button onClick={submit} className="btn-secondary">
+                    Cadastrar novo Item
                 </button>
             </div>
         </div>
