@@ -3,6 +3,9 @@
 Este projeto é um Cardápio Digital desenvolvido com React e Spring Boot.
 A aplicação permite visualizar e gerenciar pratos e menus de forma dinâmica.
 
+![image](https://github.com/user-attachments/assets/7157c06a-a88e-4af4-a5fb-a8a93d9fb289)
+
+
 ---
 
 ## 🛠️ Estrutura do Projeto
